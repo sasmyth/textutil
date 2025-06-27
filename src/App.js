@@ -42,14 +42,14 @@ document.title='TEXTUTILS-DARK MODE';}
   }
  
   return (<>
-  <Router>
+  
    <div className={`App-${mode}`}>
  <Navbar title="testimony" mode={mode} handletoggle={handleToggle}/>
 <Alert alert={alert}/>
-   
-    
+   <Textbar showalert={showalert} heading="HEADING"/>
+     <About name="babua" />
 
- <Switch>
+ {/* <Switch>
           <Route path="/about">
             <About name="babua" />
           
@@ -57,10 +57,10 @@ document.title='TEXTUTILS-DARK MODE';}
           <Route path="/">
            <Textbar showalert={showalert} heading="HEADING"/>
           </Route>
-        </Switch>
+        </Switch> */}
 
 
-    </div></Router>
+    </div>
   </>);
   
 }

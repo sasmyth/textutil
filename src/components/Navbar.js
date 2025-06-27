@@ -9,10 +9,10 @@ export default function Navbar(props){
        <nav className={`cute-navbar-${props.mode}`}>
       <div className="logo">🌸 CutieNav</div>
       <ul className="nav-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/">Services</Link></li>
-        <li><Link to="/">Contact</Link></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/">Services</a></li>
+        <li><a href="/">Contact</a></li>
 
     <div class="form-check form-switch">
   <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault" onChange={props.handletoggle}/>
