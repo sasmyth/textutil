@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/banaras/static/css/main.1fd164cb.css",
+    "main.js": "/banaras/static/js/main.e91e8b20.js",
+    "static/js/453.bb69c65d.chunk.js": "/banaras/static/js/453.bb69c65d.chunk.js",
+    "static/media/logo.svg": "/banaras/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/banaras/index.html",
+    "main.1fd164cb.css.map": "/banaras/static/css/main.1fd164cb.css.map",
+    "main.e91e8b20.js.map": "/banaras/static/js/main.e91e8b20.js.map",
+    "453.bb69c65d.chunk.js.map": "/banaras/static/js/453.bb69c65d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fd164cb.css",
+    "static/js/main.e91e8b20.js"
+  ]
+}
